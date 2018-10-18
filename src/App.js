@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
-import { SearchForm } from './SearchForm';
+import SearchForm from './SearchForm';
+import PokemonCard from './pokemonCard';
 
 class App extends Component {
   render() {
@@ -9,6 +9,7 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <SearchForm />
+          <PokemonCard />
         </header>
       </div>
     );
